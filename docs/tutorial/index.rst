@@ -1,14 +1,12 @@
-Tutorial
+튜토리얼
 ========
 
-Channels allows you to use WebSockets and other non-HTTP protocols in your
-Django site. For example you might want to use WebSockets to allow a page on
-your site to immediately receive updates from your Django server without using
-HTTP long-polling or other expensive techniques.
+Channels은 여러분이 만든 Django 사이트에 WebSockets와 다른 non-HTTP 프로토콜들을 사용할 수 있도록 해 줄 것입니다.
+예를 들자면, 여러분께서 당신이 만든 사이트에 웹 소켓을 사용하여 즉시 장고 서버를 업데이트 하고 싶으실 때
+오랜 시간동안 polling 해야하는 HTTP 나 다른 테크닉을 사용하지 않고도 사용할 수 있을 것입니다.
 
-In this tutorial we will build a simple chat server, where you can join an
-online room, post messages to the room, and have others in the same room see
-those messages immediately.
+이 튜토리얼에서는 우리는 간단한 채팅 서버를 만들 것입니다. 그 채팅 서버에서 당신은 온라인 채팅방에 참여할 수 있고,
+해당 채팅방에 메시지를 보낼 수 있으며, 또한 같은 채팅방에 있는 다른 사람들도 그 메시지를 바로 확인 할 수 있도록 할 것입니다.
 
 .. toctree::
    :maxdepth: 1
